@@ -1,0 +1,36 @@
+:root {
+  --font-family-primary: 'Radial Trial', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  /* Font Sizes */
+  --font-size-xs: 0.75rem; /* 12px  */
+  --font-size-sm: 0.875rem; /* 14px  */
+  --font-size-base: 1rem; /* 16px  */
+  --font-size-lg: 1.125rem; /* 18px  */
+  --font-size-xl: 1.5rem; /* 24px  */
+  --font-size-2xl: 2rem; /* 32px  */
+  --font-size-3xl: 2.125rem; /* 34px */
+  --font-size-4xl: 2.375rem; /* 38px */
+
+  /* Neutrals */
+  --color-gray: hsla(0, 0%, 34%, 1);
+  --color-black: hsla(0, 0%, 0%, 1);
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-off-white: hsla(48, 33%, 94%, 1);
+
+  /* Semantic Colors */
+  --color-red-primary: hsla(359, 78%, 62%, 1);
+  --color-red-secondary: hsla(356, 92%, 59%, 1);
+  --color-green: hsla(99, 57%, 50%, 1);
+
+  /* Break points*/
+
+  --breakpoint-rem-phone: ;
+  --breakpoint-rem-tablet: 59.375rem;
+  --breakpoint-rem-laptop: 81.25rem;
+
+  --breakpoint-phone: 600px; /* 37.5rem*/
+  --breakpoint-tablet: 950px; /* 59.375rem */
+  --breakpoint-laptop: 1300px; /*81.25rem */
+}
