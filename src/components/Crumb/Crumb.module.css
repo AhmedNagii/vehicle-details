@@ -1,0 +1,26 @@
+
+.crumbWrapper {
+  
+}
+
+
+.crumbWrapper:not(:first-of-type) {
+    margin-left: var(--spacing-sm); /* e.g., 8px */
+
+    &::before {
+        content: '/';
+        margin-right: var(--spacing-sm);
+        color: var(--color-gray); 
+    }
+}
+
+.crumbLink {
+    color: var(--color-gray); 
+    text-decoration: none;
+    font-weight: var(--font-weight-regular); 
+    padding: 0 4px;
+}
+
+.crumbLink:hover {
+    color: var(--color-black); 
+}

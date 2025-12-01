@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  gap: 8px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.driverName{
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-black);
+} 
+.phon{
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-gray);
+}

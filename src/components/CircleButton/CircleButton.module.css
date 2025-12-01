@@ -1,0 +1,9 @@
+.CircleButton {
+  border-radius: 50%;
+  border: solid 1px var(--color-gray-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+  cursor: pointer;
+}

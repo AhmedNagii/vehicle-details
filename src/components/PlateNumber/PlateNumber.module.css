@@ -1,0 +1,23 @@
+.plateBadgeContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 138px;
+  height: 34px;
+  border: solid 1.5px var(--color-black);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.plateNumberSection {
+  display: flex;
+  flex-direction: column;
+  max-height: 34px;
+  gap: 4px;
+  margin-top: -4px;
+}
+
+.plateNumberText {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-black);
+  height: 12px;
+}

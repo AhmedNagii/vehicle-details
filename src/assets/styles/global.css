@@ -49,7 +49,7 @@ table {
 *:after {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'radial trial', sans-serif;
+  font-family: 'radial trial';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
 }

@@ -1,5 +1,5 @@
 :root {
-  --font-family-primary: 'Radial Trial', sans-serif;
+  --font-family-primary: 'radial Trial', sans-serif;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
 
@@ -15,6 +15,7 @@
 
   /* Neutrals */
   --color-gray: hsla(0, 0%, 34%, 1);
+  --color-gray-light: hsla(45, 7%, 78%, 0.5);
   --color-black: hsla(0, 0%, 0%, 1);
   --color-white: hsla(0, 0%, 100%, 1);
   --color-off-white: hsla(48, 33%, 94%, 1);

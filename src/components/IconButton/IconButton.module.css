@@ -1,0 +1,15 @@
+.iconButton {
+  height: 42px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  background-color: transparent;
+  border: solid 1px var(--color-gray-light);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  padding: 0 12px;
+  cursor: pointer;
+}

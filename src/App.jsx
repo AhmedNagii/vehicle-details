@@ -1,9 +1,16 @@
 import './App.css';
+import VehiclePage from './pages/VehiclePage/VehiclePage.jsx';
+import GlobalHeader from './components/GlobalHeader/GlobalHeader.jsx';
+import GlobalSideBar from './components/GlobalSideBar/GlobalSideBar.jsx';
 
 function App() {
   return (
-    <div>
-      <h1>Chevrolet Tahoe 2025</h1>
+    <div className={'app'}>
+      <GlobalHeader />
+      <div className={'content'}>
+        <GlobalSideBar />
+        <VehiclePage />
+      </div>
     </div>
   );
 }
