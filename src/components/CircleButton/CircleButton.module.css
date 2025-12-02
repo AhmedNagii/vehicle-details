@@ -8,6 +8,11 @@
   cursor: pointer;
 }
 
+.CircleButton:hover {
+  background-color: var(--color-gray-light);
+}
+
+
 @media (max-width: 40.62rem) {
   .CircleButton {
     width: 40px !important;

@@ -4,7 +4,7 @@
   border-right: 1px solid var(--color-off-white);
 }
 
-@media (max-width:  59.375rem) {
+@media (max-width: 81.25rem) {
   .container {
     width: 100%;
     max-width: 100%;
