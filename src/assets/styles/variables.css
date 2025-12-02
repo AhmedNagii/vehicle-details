@@ -27,7 +27,7 @@
 
   /* Break points*/
 
-  --breakpoint-phone: 600px; /* 37.5rem*/
+  --breakpoint-phone: 650px; /* 40.65rem*/
   --breakpoint-tablet: 950px; /* 59.375rem */
   --breakpoint-laptop: 1300px; /*81.25rem */
 }

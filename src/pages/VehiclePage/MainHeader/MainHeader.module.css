@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0 64px;
   margin-top: 18px;
   gap: 16px;
@@ -44,9 +45,11 @@
   color: var(--color-black);
 }
 
-@media (max-width: 81.25rem) {
+@media (max-width:  59.375rem) {
   .infoPairList {
-    flex-wrap: wrap;
     padding: 0;
+  }
+  .container {
+    display: none;
   }
 }

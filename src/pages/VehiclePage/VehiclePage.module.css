@@ -16,10 +16,12 @@
 }
 
 
-@media (max-width: 81.25rem) {
+@media (max-width: 59.375rem) {
     .contentWrapper {
         flex-wrap: wrap; 
         flex-shrink: 0; /* Ensures no weird shrinking */
     }
-    
+    .pageContainer {
+      padding: 16px 28px;
+    }
 }

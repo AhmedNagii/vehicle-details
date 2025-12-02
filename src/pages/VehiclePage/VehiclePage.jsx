@@ -4,11 +4,13 @@ import MainHeader from './MainHeader/MainHeader.jsx';
 import SecondaryNavigation from './SecondaryNavigation/SecondaryNavigation.jsx';
 import DataChartsSection from './DataChartsSection/DataChartsSection.jsx';
 import VehicleDetailsSection from './VehicleDetailsSection/VehicleDetailsSection.jsx';
+import MainHeaderTablet from './MainHeaderTablet/MainHeaderTablet.jsx';
 
 const VehiclePage = () => {
   return (
     <div className={styles.pageContainer}>
       <MainHeader />
+      <MainHeaderTablet />
       <SecondaryNavigation />
 
       <div className={styles.contentWrapper}>

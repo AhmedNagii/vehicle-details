@@ -7,3 +7,10 @@
   background-color: var(--color-white);
   cursor: pointer;
 }
+
+@media (max-width: 40.62rem) {
+  .CircleButton {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
