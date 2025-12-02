@@ -147,3 +147,15 @@ export const summaryCardData = [
     iconPath: MapPin,
   },
 ];
+
+export const chartData = [
+  { month: 'Jan', revenue: 95, expenses: 78 },
+  { month: 'Feb', revenue: 110, expenses: 85 },
+  { month: 'Mar', revenue: 125, expenses: 105 },
+  { month: 'Apr', revenue: 155, expenses: 140 }, // The peak month shown in the image
+  { month: 'May', revenue: 88, expenses: 65 },
+  { month: 'Jun', revenue: 115, expenses: 88 },
+  { month: 'Jul', revenue: 40, expenses: 30, fill: 'hsla(0, 0%, 91%, 1)' },
+  { month: 'Aug', revenue: 60, expenses: 45, fill: 'hsla(0, 0%, 91%, 1)' },
+  { month: 'Sep', revenue: 75, expenses: 55, fill: 'hsla(0, 0%, 91%, 1)' },
+];

@@ -4,6 +4,7 @@ import StatCard from '../../../components/StatCard/StatCard.jsx';
 import { Down } from '../../../assets';
 import { summaryCardData } from '../../../data/dummyData.js';
 import { SaudiRiyal } from '../../../assets';
+import Chart from '../Chart/Chart.jsx';
 function DataChartsSection() {
   return (
     <section className={styles.sectionContainer}>
@@ -21,7 +22,6 @@ function DataChartsSection() {
           </div>
         </button>
       </div>
-
       <div className={styles.infoHeader}>
         <div className={styles.info}>
           <span className={styles.label}>Avg. Monthly Revenue</span>
@@ -46,7 +46,7 @@ function DataChartsSection() {
           </span>
         </div>
       </div>
-
+      <Chart />
       <div className={styles.chartHeader}>
         <h3 className={styles.title}>Monthly Utilizing </h3>
         <button className={styles.dropDown}>
@@ -56,14 +56,10 @@ function DataChartsSection() {
           </div>
         </button>
       </div>
-
       <div className={styles.infoHeader}>
         <div className={styles.info}>
           <span className={styles.label}>Avg. Monthly Utilizing</span>
-          <span className={styles.value}>
-         
-            80&
-          </span>
+          <span className={styles.value}>80&</span>
         </div>
       </div>
     </section>
