@@ -30,3 +30,82 @@ export const headerMetaData = [
     component: null,
   },
 ];
+
+export const vehicleDetailTabs = [
+  {
+    id: 'overview',
+    label: 'Overview',
+    isActive: true,
+    path: '/vehicle/123/overview',
+  },
+  {
+    id: 'live',
+    label: 'Live',
+    isActive: false,
+    path: '/vehicle/123/live',
+  },
+  {
+    id: 'schedule',
+    label: 'Schedule',
+    isActive: false,
+    path: '/vehicle/123/schedule',
+  },
+  {
+    id: 'rides',
+    label: 'Rides',
+    isActive: false,
+    path: '/vehicle/123/rides',
+  },
+  {
+    id: 'contracts',
+    label: 'Contracts',
+    isActive: false,
+    path: '/vehicle/123/contracts',
+  },
+  {
+    id: 'transactions',
+    label: 'Transactions',
+    isActive: false,
+    path: '/vehicle/123/transactions',
+  },
+  {
+    id: 'fuel-history',
+    label: 'Fuel History',
+    isActive: false,
+    path: '/vehicle/123/fuel-history',
+  },
+  {
+    id: 'updates-logs',
+    label: 'Updates Logs',
+    isActive: false,
+    path: '/vehicle/123/updates-logs',
+  },
+];
+
+
+export const vehicleDetailsData = [
+  {
+    label: 'Chassis Number',
+    value: 'JTMBFREV4JJ752103',
+  },
+  {
+    label: 'Plate Number',
+    value: '5100 SRJ',
+  },
+  {
+    label: 'Brand',
+    value: 'Chevrolet',
+  },
+  {
+    label: 'Model',
+    value: 'Tahoe',
+  },
+  {
+    label: 'Year',
+    value: '2025',
+  },
+  {
+    label: 'Color',
+    value: 'Black',
+  },
+];

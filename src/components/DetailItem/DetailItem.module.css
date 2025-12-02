@@ -1,0 +1,50 @@
+.item {
+  width: 100%;
+  border-bottom: solid 1px hsla(0, 0%, 89%, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+}
+
+.item span {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-base);
+}
+
+.fileInfo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.iconContainer {
+  width: 38px;
+  height: 38px;
+  padding: 20px;
+  background-color: hsla(0, 0%, 96%, 1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.fileName {
+  color: var(--color-gray);
+  font-weight: var(--font-weight-regular);
+}
+
+.downloadUrl {
+  text-decoration: none;
+  color: var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+  font-size: var(--font-size-base);
+  padding-bottom: -5px;
+  line-height: 1;
+}

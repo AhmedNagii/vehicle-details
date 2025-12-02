@@ -1,0 +1,17 @@
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.vehicleWrapper {
+  position: relative;
+  max-width: 500px;
+  max-height: 250px;
+}
+
+.title {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xl);
+}

@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vehicleHeader {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.vehicleTitle {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-regular);
+  line-height: 1;
+}
+
+.infoPairList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 0 64px;
+  margin-top: 18px;
+}
+
+.infoText {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-black);
+}

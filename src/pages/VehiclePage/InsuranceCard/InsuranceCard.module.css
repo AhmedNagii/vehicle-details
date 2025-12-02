@@ -1,0 +1,46 @@
+.insuranceCardWrapper {
+  min-height: 166px;
+  width: 100%;
+  background-color: var(--color-off-white);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-regular);
+  line-height: 1;
+}
+
+.cardIconContainer {
+  position: relative;
+}
+
+.cardDetailsGrid {
+  display: flex;
+  justify-content: space-between;
+}
+.companyName {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+}
+.dataField {
+  width: 100%;
+}
+
+.dataLabel {
+  display: block;
+  color: var(--color-gray);
+  font-weight: var(--font-weight-regular);
+  font-size: calc(var(--font-size-base) - 1px);
+}
+
+.dataValue {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-base);
+}

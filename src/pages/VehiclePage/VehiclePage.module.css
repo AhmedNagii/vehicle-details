@@ -1,49 +1,15 @@
 .pageContainer {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   width: 100%;
-  height: 100%;
+  height: 180%;
   padding: 24px 48px;
-  max-height: 57px;
-}
-
-.pageHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-height: 57px;
-}
-
-.vehicleHeader {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-}
-
-.flexRow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   gap: 12px;
 }
 
-.vehicleTitle {
-  font-size: var(--font-size-4xl);
-  font-weight: var(--font-weight-regular);
-  line-height: 1;
-}
-
-.infoPairList {
+.contentWrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  justify-content: space-between;
-  padding: 0 64px;
-  margin-top: 18px;
-}
-
-.infoText {
-  font-size: var(--font-size-base);
-  font-weight: var(--font-weight-regular);
-  color: var(--color-black);
+  height: 100%;
+  width: 100%;
 }
