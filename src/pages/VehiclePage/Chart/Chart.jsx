@@ -10,9 +10,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import styles from './Chart.module.css';
-import {chartData} from  '../../../data/dummyData'
-
-
+import { chartData } from '../../../data/dummyData';
 
 function Chart() {
   return (
@@ -33,6 +31,7 @@ function Chart() {
             dataKey="month"
             axisLine={false}
             tickLine={false}
+            fontSize={16}
             padding={{ left: 10, right: 10 }}
             tick={{ fill: 'hsla(0, 0%, 0%, 1)' }}
           />
@@ -42,6 +41,7 @@ function Chart() {
             domain={[0, 160]}
             axisLine={false}
             tickLine={false}
+            fontSize={16}
             tick={{ fill: 'hsla(0, 0%, 0%, 1)' }}
           />
           <Tooltip />
