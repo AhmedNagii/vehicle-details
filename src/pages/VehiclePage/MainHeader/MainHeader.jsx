@@ -5,9 +5,7 @@ import Crumb from '../../../components/Crumb/Crumb';
 import StatusIcon from '../../../components/StatusIcon/StatusIcon.jsx';
 import CircleButton from '../../../components/CircleButton/CircleButton.jsx';
 import IconButton from '../../../components/IconButton/IconButton.jsx';
-import backIcon from '../../../assets/icons/back-icon.svg';
-import printerIcon from '../../../assets/icons/printerIcon.svg';
-import options from '../../../assets/icons/options-horizontal.svg';
+import { BackIcon, PrinterIcon, Options } from '../../../assets';
 import { headerMetaData } from '../../../data/dummyData.js';
 import InfoPair from '../../../components/InfoPair/InfoPair.jsx';
 import PlateNumber from '../../../components/PlateNumber/PlateNumber.jsx';
@@ -20,7 +18,7 @@ function MainHeader() {
         <div className={styles.vehicleHeader}>
           <div className={styles.flexRow}>
             <CircleButton size={52}>
-              <img src={backIcon} alt="Back" />
+              <img src={BackIcon} alt="Back" />
             </CircleButton>
             <div>
               <BreadCrumbs>
@@ -41,10 +39,10 @@ function MainHeader() {
             text="Print"
             onClick={() => {}}
           >
-            <img src={printerIcon} alt="printer icon" />
+            <img src={PrinterIcon} alt="printer icon" />
           </IconButton>
           <IconButton text="">
-            <img src={options} alt="" />
+            <img src={Options} alt="" />
           </IconButton>
         </div>
       </div>

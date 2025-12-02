@@ -1,20 +1,20 @@
-.container{
+.container {
   display: flex;
   gap: 8px;
 }
 
-.info{
+.info {
   display: flex;
   flex-direction: column;
-  
 }
 
-.driverName{
+.driverName {
   font-size: var(--font-size-base);
   font-weight: var(--font-weight-regular);
   color: var(--color-black);
-} 
-.phon{
+  white-space: nowrap;
+}
+.phon {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-regular);
   color: var(--color-gray);

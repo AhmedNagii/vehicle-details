@@ -1,0 +1,78 @@
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 500px;
+  gap: 22px;
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.title {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xl);
+}
+
+.chartHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropDown {
+  border: none;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+.dropDownText {
+  white-space: nowrap;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-bas);
+}
+.dropDownIcon {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 4px;
+}
+
+.infoHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 48px;
+  height: 72px;
+  border-bottom: 1px solid hsla(0, 0%, 94%, 1);
+  border-top: 1px solid hsla(0, 0%, 94%, 1);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-weight: var(--font-weight-regular);
+  font-size: calc(var(--font-size-bas) - 1px);
+  color: var(--color-gray);
+}
+
+.value {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: var(--font-weight-regular);
+  font-size: calc(var(--font-size-bas));
+}
+.iconWrapper {
+  position: relative;
+  max-width: 13px;
+  max-height: 14px;
+}
+
+

@@ -1,17 +1,27 @@
 .container {
-  width: 500px;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+
   gap: 22px;
 }
 
 .vehicleWrapper {
   position: relative;
-  max-width: 500px;
+  display: flex;
+  justify-content: center;
   max-height: 250px;
 }
 
 .title {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-xl);
+}
+
+@media (max-width: 81.25rem) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
 }

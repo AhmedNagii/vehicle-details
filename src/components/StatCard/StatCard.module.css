@@ -1,0 +1,30 @@
+.cardWrapper {
+  width: 232px;
+  height: 177px;
+  border-radius: 8px;
+  padding: 16px 20px;
+  background-color: var(--color-off-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: var(--font-weight-regular);
+  font-size: calc(var(--font-size-sm) - 1px);
+}
+.value {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-2xl);
+}
+
+.valueContainer {
+  display: flex;
+  gap: 8px;
+}

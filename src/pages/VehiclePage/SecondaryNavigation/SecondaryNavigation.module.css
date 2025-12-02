@@ -11,6 +11,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  overflow-x: auto;
   height: 100%;
 }
 
@@ -24,6 +25,7 @@
   height: 100%;
   width: 100%;
   cursor: pointer;
+  min-width: 144px;
 }
 
 .navLink {
@@ -57,7 +59,34 @@
 }
 
 .navLink.active {
-    font-weight: var(--font-weight-semibold); 
-    color: var(--color-black); 
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-black);
 }
 
+.navList::-webkit-scrollbar {
+  max-height: 2px;
+  background-color: transparent;
+}
+
+/* The thumb (the draggable bar itself) */
+.navList::-webkit-scrollbar-thumb {
+  /* 2. Style the thumb */
+  background-color: var(
+    --color-scroll-thumb,
+    #ccc
+  ); /* Use a light gray theme variable */
+  border-radius: 3px; /* Match your app's rounded corners */
+}
+
+/* Optional: Make the thumb darker on hover */
+.navList::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-scroll-thumb-hover, #999);
+}
+
+/* Custom Scrollbar Styles for Firefox */
+/* Note: Firefox customization is more limited, only affecting color/width */
+.navList {
+  /* 3. Set the color and width for the scrollbar */
+  scrollbar-color: var(--color-scroll-thumb, #ccc) transparent; /* thumb color | track color */
+  scrollbar-width: thin; /* 'thin' or 'auto' */
+}

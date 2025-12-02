@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './DetailItem.module.css';
-import FileIcon from '../../assets/icons/file.svg';
-
+import { FileIcon } from '../../assets';
 function DetailItem({ label, value, hasFile = false }) {
   return (
     <div className={styles.item}>

@@ -1,3 +1,11 @@
+import {
+  ExpensesIcon,
+  IncomeIcon,
+  Contract,
+  MapPin,
+  SaudiRiyal,
+} from '../assets';
+
 export const headerMetaData = [
   {
     title: 'Chassis Number',
@@ -82,7 +90,6 @@ export const vehicleDetailTabs = [
   },
 ];
 
-
 export const vehicleDetailsData = [
   {
     label: 'Chassis Number',
@@ -107,5 +114,36 @@ export const vehicleDetailsData = [
   {
     label: 'Color',
     value: 'Black',
+  },
+];
+
+export const summaryCardData = [
+  {
+    id: 'income',
+    label: 'Total Income',
+    value: '202,230',
+    currencySymbol: SaudiRiyal,
+    iconPath: IncomeIcon,
+  },
+  {
+    id: 'expenses',
+    label: 'Total Expenses',
+    value: '202,230',
+    currencySymbol: SaudiRiyal,
+    iconPath: ExpensesIcon,
+  },
+  {
+    id: 'contracts',
+    label: 'Total Contracts',
+    value: '2,230',
+    currencySymbol: null, // No currency needed here
+    iconPath: Contract,
+  },
+  {
+    id: 'rides',
+    label: 'Total Rides',
+    value: '2,230',
+    currencySymbol: null,
+    iconPath: MapPin,
   },
 ];
