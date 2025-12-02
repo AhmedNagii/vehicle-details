@@ -11,27 +11,25 @@ details, charts, and related information.
 
 ## 📁 Folder Structure
 
-src
-│
-├── assets
-│   ├── fonts
-│   ├── icons
-│   ├── images
-│   └── styles
-│       └── index.js
-├── components
-│
-├── data
-│
-├── hooks
-│
-├── pages
-│   └── VehiclePage
-│       
-├── App.jsx
-├── App.css
-├── main.jsx
-└── ...
+```text
+src/
+├── assets/
+│   ├── fonts/
+│   ├── icons/
+│   ├── images/
+│   ├── styles/
+│   └── index.js  <-- Centralized Asset Exports
+├── components/
+│   ├── Breadcrumbs/
+│   ├── DetailItem/
+│   └── StatCard/
+├── data/
+├── hooks/
+└── pages/
+    └── VehiclePage/
+        ├── DataChartsSection/
+        ├── InsuranceCard/
+        └── VehiclePage.jsx
 
 (Structure summarized; see project for full details)
 
