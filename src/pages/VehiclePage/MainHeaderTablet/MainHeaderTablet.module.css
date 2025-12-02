@@ -68,7 +68,7 @@
     display: none;
   }
 }
-@media (max-width: 40.62rem) {
+@media (max-width: 40.65rem) {
   .pageHeader {
     flex-direction: column;
     gap: 8px;
