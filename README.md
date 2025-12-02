@@ -63,3 +63,7 @@ Using **Recharts** for strong customization and smooth integration.
     cd vehicle-details
     npm install
     npm run dev
+
+## 🔗 Sandbox Playground
+
+[CodeSandbox Live Demo](https://codesandbox.io/p/github/AhmedNagii/vehicle-details/main)

@@ -26,6 +26,10 @@
   cursor: pointer;
   min-width: 144px;
 }
+.navList li:hover {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-lg);
+}
 
 .navLink {
   display: flex;
@@ -83,6 +87,5 @@
 @media (max-width: 59.375rem) {
   .navList li {
     min-width: 120px;
-
   }
 }
